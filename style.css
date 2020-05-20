@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#first{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    
+    background-color: antiquewhite;
+}
+
+#second{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: royalblue;
+}
+
+#third{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: beige;
+}
+
+#forth{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: bisque;
+}
+
+#fifth{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: yellowgreen;
+}
+
+#sixth{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: gray;
+}
+
+section{
+    opacity: 0;
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+    opacity .3s .25s ease-out;
+}
+
+section.is-visible {
+    opacity: 1;
+}
+
